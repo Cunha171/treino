@@ -1,0 +1,63 @@
+.section-um {
+    height: 90vh;
+    background: linear-gradient(-43deg,  var(--cor-g1) 3%, var(--cor-g2) 48%);
+}
+
+.section-um .principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-top: 7rem;
+}
+
+.section-um .principal .left h1 {
+    color: var(--cor-branco);
+    font-family: var(--f1);
+    font-weight: var(--pf-b);
+    font-size: var(--tf-p4);
+}
+
+.section-um .principal .left p{
+    color: var(--cor-cinza);
+    font-family: var(--f1);
+    font-weight: var(--pf-m);
+    font-size: var(--tf-p1);
+}
+
+.section-um .principal .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: var(--cor-branco);
+    height: 60px;
+    width: 440px;
+    border-radius: 15px;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+.section-um .principal .search-bar img {
+    height: 21px;
+    width: 21px;
+    margin-left: 10px;
+}
+
+.section-um .principal .search-bar p {
+    color: var(--cor-cinza);
+    font-family: var(--f1);
+    font-weight: var(--pf-m);
+    font-size: var(--tf-p1);
+}
+
+.section-um .principal .search-bar button {
+    background-color: var(--cor-roxo);
+    width: 112px;
+    height: 45px;
+    border-radius: 15px;
+    margin-left: 90px;
+    /* texto */
+    color: var(--cor-branco);
+    font-family: var(--f1);
+    font-weight: var(--pf-sb);
+    font-size: var(--tf-p2);
+}

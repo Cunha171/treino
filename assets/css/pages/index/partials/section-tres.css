@@ -1,0 +1,134 @@
+.section-tres {
+    margin: 0 400px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-tres .txt-apresentacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-tres .txt-apresentacao p {
+    font-family: var(--f2);
+    font-size: var(--tf-i1);
+    font-weight: var(--pf-m);
+    color: var(--cor-roxo);
+}
+
+.section-tres .txt-apresentacao h2 {
+    font-family: var(--f2);
+    font-size: var(--tf-i2);
+    font-weight: var(--pf-b);
+    color: var(--cor-preto);
+}
+
+.section-tres .cd-ap {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 60px;
+}
+
+.section-tres .cd-ap .card-ap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    height: 240px;
+    width: 525px;
+    border-radius: 15px;
+    background-color: var(--cor-card);
+}
+
+.section-tres .cd-ap .profile {
+    height: 160px;
+    width: 150px;
+}
+.section-tres .cd-ap .stars {
+    height: auto;
+    width: auto;
+}
+
+.section-tres .cd-ap .text-lado {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.section-tres .cd-ap .text-lado h3 {
+    font-family: var(--f2);
+    font-size: var(--tf-i2);
+    font-weight: var(--pf-b);
+}
+
+.section-tres .cd-ap .text-lado p {
+    font-family: var(--f2);
+    font-size: var(--tf-i1);
+    font-weight: var(--pf-m);
+}
+
+.section-tres .newsletter {
+    margin-top: 70px;
+    height: 377px;
+    width: 1080px;
+    background-color: var(--cor-card);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-tres .newsletter .txt h2 {
+    font-family: var(--f2);
+    font-size: var(--tf-i2);
+    font-weight: var(--pf-b);
+    color: var(--cor-preto);
+}
+
+.section-tres .newsletter .txt p {
+    font-family: var(--f2);
+    font-size: var(--tf-i1);
+    font-weight: var(--pf-m);
+    color: var(--cor-cinza);
+}
+
+.section-tres .newsletter .txt .ipt {
+    display: flex;
+    align-items: center;
+}
+
+.section-tres .newsletter .txt .ipt .txt-ipt {
+    height: 60px;
+    width: 440px;
+    margin-top: 20px;
+    border-radius: 15px;
+    flex: 1;
+}
+
+.section-tres .newsletter .txt .ipt .txt-ipt {
+    font-family: var(--f2);
+    font-size: var(--tf-i1);
+    font-weight: var(--pf-m);
+    color: var(--cor-cinza); 
+    padding-left: 20px;
+}
+
+.ipt .Subscribe {
+    padding: 10px 15px;
+    background-color: var(--cor-roxo);
+    color: var(--cor-branco);
+    font-family: var(--f1);
+    font-weight: var(--pf-sb);
+    font-size: var(--tf-p2);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: -130px;
+    margin-top: 20px;
+}
+

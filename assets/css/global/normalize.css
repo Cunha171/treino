@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; /* Ou uma cor específica */
+}
+
+a:hover {
+    text-decoration: none; /* Remove sublinhado no hover */
+    color: inherit; /* Mantém a mesma cor no hover */
+}

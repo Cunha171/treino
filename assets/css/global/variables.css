@@ -1,0 +1,36 @@
+:root {
+    /* Cores */
+    --cor-cinza: #8B8E99;
+    --cor-branco: #FFFFFF;
+    --cor-roxo: #3858D6;
+    --cor-preto: #1E1D1D;
+    --cor-bescuro: #F6F6F6;
+    --cor-footer: #0B0B0B;
+    --cor-card: #f6f6f6;
+
+    /* Gradient */
+    --cor-g1: #383638;
+    --cor-g2: #0B0B0B;
+
+
+    /* Font */
+    --f1: 'Poppins', sans-serif;
+    --f2: 'Inter', sans-serif;
+
+    /* Tamanho das fontes */
+
+    /* poppins */
+    --tf-p1: 16px;
+    --tf-p2: 18px;
+    --tf-p3: 24px;
+    --tf-p4: 64px;
+
+    /* inter */
+    --tf-i1: 16px;
+    --tf-i2: 36px;
+
+    /* Peso da font */
+    --pf-b: 700;      /* Bold */
+    --pf-sb: 600;   /* Semibold */
+    --pf-m: 500;    /* Medium */
+}
